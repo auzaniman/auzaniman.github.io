@@ -10,7 +10,7 @@ export const site = {
   email: "", // [EMAIL] — empty hides the button
   linkedin: "", // [LINKEDIN URL] — empty hides the button
   cv: "", // [/cv-auzan.pdf] — empty hides the button
-  since: 2020,
+  since: 2018,
 };
 
 type Copy = Record<string, L10n>;
@@ -45,8 +45,8 @@ export const copy = {
     titleC: { id: " jadi ", en: " into " },
     titleD: { id: "pertumbuhan.", en: "growth." },
     lead: {
-      id: "Sejak 2020 saya merancang aplikasi web untuk kerja harian perusahaan: pemesanan dan pengiriman, layanan pelanggan, produksi konten, sampai ketertelusuran hasil tani. Saya memegang semuanya, dari memahami proses bisnis sampai sistem berjalan di server.",
-      en: "Since 2020 I have built web applications for everyday company work: ordering and shipping, customer service, content production and farm-to-buyer traceability. I own the whole path, from understanding the business process to running the system in production.",
+      id: "Sejak 2018 saya berkarya di dunia web. Kini saya merancang aplikasi web untuk kerja harian perusahaan: pemesanan dan pengiriman, layanan pelanggan, produksi konten, sampai ketertelusuran hasil tani. Saya memegang semuanya, dari memahami proses bisnis sampai sistem berjalan di server.",
+      en: "I have worked on the web since 2018. Today I build web applications for everyday company work: ordering and shipping, customer service, content production and farm-to-buyer traceability. I own the whole path, from understanding the business process to running the system in production.",
     },
     ctaWork: { id: "Lihat galeri karya", en: "Browse my work" },
     ctaCv: { id: "Unduh CV", en: "Download CV" },
@@ -58,7 +58,7 @@ export const copy = {
     projects: { id: "proyek terdokumentasi", en: "documented projects" },
     internal: { id: "aplikasi internal perusahaan", en: "internal company apps" },
     portals: { id: "portal sekolah, madrasah & daerah", en: "school & regional portals" },
-    years: { id: "tahun berkarya sejak 2020", en: "years building since 2020" },
+    years: { id: "tahun pengalaman sejak 2018", en: "years of experience since 2018" },
   },
   highlights: {
     kicker: { id: "01 — Sorotan", en: "01 — Highlights" },
@@ -198,7 +198,7 @@ export const buildLayers = {
 };
 
 export const journey = [
-  { years: "2020 — 2021", title: { id: "Belajar & freelance", en: "Learning & freelance" }, body: { id: "Slicing desain jadi website, lalu sistem informasi klinik dan organisasi.", en: "Turning designs into websites, then information systems for a clinic and organisations." } },
+  { years: "2018 — 2021", title: { id: "Awal karier & freelance", en: "Early career & freelance" }, body: { id: "Mulai di agensi digital, lalu freelance sejak 2019: slicing desain jadi website, sampai sistem informasi klinik dan organisasi.", en: "Started at a digital agency, then freelance from 2019: turning designs into websites, then information systems for a clinic and organisations." } },
   { years: "2022", title: { id: "Sekolah & pemerintah daerah", en: "Schools & local government" }, body: { id: "Pendaftaran siswa online untuk 6 sekolah dan 27 portal madrasah & daerah.", en: "Online student admission for 6 schools and 27 madrasah & regional portals." } },
   { years: "2023 — 2025", title: { id: "Tech lead perusahaan D2C", en: "Tech lead at a D2C company" }, body: { id: "Membangun kerangka aplikasi dan sistem operasional untuk brand herbal.", en: "Built the application framework and operations systems for an herbal brand." } },
   { years: "2026 — sekarang", yearsEn: "2026 — now", current: true, title: { id: "Startup & otomasi", en: "Startups & automation" }, body: { id: "Pengembang NiraTrace, otomasi konten, dan pengembangan dibantu AI.", en: "Developer of NiraTrace, content automation and AI-assisted development." } },

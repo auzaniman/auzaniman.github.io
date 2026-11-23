@@ -97,7 +97,7 @@ export function Hero({ locale: l }: { locale: Locale }) {
         <Stat n={projects.length} label={t(copy.stats.projects, l)} />
         <Stat n={internal} label={t(copy.stats.internal, l)} />
         <Stat n={30} suffix="+" label={t(copy.stats.portals, l)} />
-        <Stat n={years} label={t(copy.stats.years, l)} />
+        <Stat n={years} suffix="+" label={t(copy.stats.years, l)} />
       </dl>
     </section>
   );
